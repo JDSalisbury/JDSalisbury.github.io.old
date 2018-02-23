@@ -40,6 +40,11 @@
 	grid-gap:var(--gap);
 }
 
+#pic{
+	display:flex;
+	justify-content: flex-start;
+}
+
 nav ul{
 	display:flex;
 	justify-content: flex-end;
@@ -54,4 +59,11 @@ nav ul li{
 
 .skills{
 	list-style-type: none;
+}
+
+header{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap:nowrap;
+
 }

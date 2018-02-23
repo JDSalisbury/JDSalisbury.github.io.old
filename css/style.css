@@ -34,8 +34,8 @@
 
 
 #pic{
-	width: 100%;
-	height: 100%;
+	width: 400px;
+	height: 500px;
 	border-radius: 10px;
 	border:2px solid white;
 }
@@ -47,6 +47,11 @@
 }
 
 #project__area__2{
+	width: 50%;
+	height: 50%;
+}
+
+#project__area__3{
 	width: 50%;
 	height: 50%;
 }
