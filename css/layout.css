@@ -55,8 +55,16 @@ nav ul{
 nav ul li{
 	margin: 5px;
 	list-style-type: none;
+
 }
 
 .skills{
 	list-style-type: none;
+	display:flex;
+	justify-content: space-around;
+}
+
+.project1, .project2, .project3{
+	display:flex;
+	justify-content: space-between;
 }
