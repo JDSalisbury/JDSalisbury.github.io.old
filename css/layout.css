@@ -60,10 +60,3 @@ nav ul li{
 .skills{
 	list-style-type: none;
 }
-
-header{
-	display:flex;
-	justify-content: space-between;
-	flex-wrap:nowrap;
-
-}
