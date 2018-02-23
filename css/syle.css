@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+    font: 700 16px 'Open Sans', sans-serif;
+    color: #eee;
+}
+
+.container {
+}
+.footer {
+    background-color: #ff0;
+    color: #011;
+}
+.header {
+    background-color: #f00;
+}
+.project1,
+.project2,
+.project3 {
+    background-color: #0f0;
+    color: #011;
+}
+.right__note1,
+.right__note2,
+.right__note3 {
+    background-color: #00f;
+}
+.left__note1,
+.left__note2,
+.left__note3,
+.left__note4 {
+    background-color: #00f;
+}
