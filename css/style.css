@@ -8,26 +8,26 @@
 .container {
 }
 .footer {
-    background-color: #ff0;
+    background-color: gray;
     color: #011;
 }
 .header {
-    background-color: #f00;
+    background-color: gray;
 }
 .project1,
 .project2,
 .project3 {
-    background-color: #0f0;
+	
     color: #011;
 }
 .right__note1,
 .right__note2,
 .right__note3 {
-    background-color: #00f;
+    background-color: black;
 }
 .left__note1,
 .left__note2,
 .left__note3,
 .left__note4 {
-    background-color: #00f;
+    background-color: red;
 }
