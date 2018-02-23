@@ -31,10 +31,21 @@
 	display:grid;
 	grid-template-rows:1/3;
 	grid-gap:var(--gap);
+
 }
 
 .left__sidebar{
 	display:grid;
 	grid-template-rows:1/4;
 	grid-gap:var(--gap);
+}
+
+nav ul{
+	display:flex;
+	justify-content: flex-end;
+	background-color: black;
+}
+nav ul li{
+	margin: 5px;
+	list-style-type: none;
 }

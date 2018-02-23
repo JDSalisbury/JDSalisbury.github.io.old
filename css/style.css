@@ -8,26 +8,30 @@
 .container {
 }
 .footer {
-    background-color: gray;
     color: #011;
+    border-top: 2px solid cadetblue;
 }
 .header {
-    background-color: gray;
+	text-color: black;
+    border-bottom: 2px solid cadetblue;
 }
 .project1,
 .project2,
 .project3 {
-	
+	border-radius: 5px;
+	border: 1px solid cadetblue;
     color: #011;
 }
 .right__note1,
 .right__note2,
 .right__note3 {
-    background-color: black;
+    color: #011;
+    border-top: 2px solid cadetblue;
 }
 .left__note1,
 .left__note2,
 .left__note3,
 .left__note4 {
-    background-color: red;
+    color: black;
+    border-bottom: 2px solid cadetblue;
 }
