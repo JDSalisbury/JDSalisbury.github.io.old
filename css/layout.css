@@ -49,8 +49,7 @@ nav ul{
 	display:flex;
 	justify-content: flex-end;
 	background-color: gray;
-	/*background: linear-gradient(to bottom right, gray, white);*/
-	background: linear-gradient(to left, gray, white);
+	background: linear-gradient(to right, gray, white);
 }
 nav ul li{
 	margin: 5px;
@@ -83,5 +82,6 @@ nav ul li{
 
 .left__note4{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 }
+
