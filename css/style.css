@@ -15,15 +15,14 @@
 .project1,
 .project2,
 .project3,
-.project4 {
+.project4,
+.project5 {
 	border-radius: 1rem;
 	border: 1px solid navy;
     color: black;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-.right__note1,
-.right__note2,
-.right__note3 {
+.right__note1 {
     border-top: 2px solid navy;
 }
 .left__note1,
@@ -65,6 +64,12 @@
 #project__area__4{
 	width: 45%;
 	height: 45%;
+	border-radius: 1rem;
+	border: 5px solid white;
+}
+#project__area__5{
+	width: 50%;
+	height: 50%;
 	border-radius: 1rem;
 	border: 5px solid white;
 }

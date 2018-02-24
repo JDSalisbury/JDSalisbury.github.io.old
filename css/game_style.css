@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+* {
+    font: 400 15px 'Roboto';
+}
+
+footer {
+    border-top: 1px solid black;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+small {
+    font-size: .8rem;
+}
+
+.card {
+    background-color: burlywood;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.card a {
+    font-weight: 700;
+}
+.card h2,
+.card h3 {
+    font-size: 1.25rem;
+}
+
+.card__pic{
+    width: 75%;
+    height: 75%;
+    border-radius: 2rem;
+    border: 5px solid burlywood;
+}

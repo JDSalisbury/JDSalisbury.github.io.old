@@ -10,8 +10,7 @@
 
 .container{
 	display:grid;
-	/*height: 100vh;*/
-	grid-template-columns: 2fr 6fr 2fr;
+	grid-template-columns: 2fr 2fr 2fr;
 	grid-template-rows: 75px auto 75px;
 	grid-gap: var(--gap);
 	margin: var(--gap);
@@ -63,7 +62,7 @@ nav ul li{
 	justify-content: space-around;
 }
 
-.project1, .project2, .project3, .project4{
+.project1, .project2, .project3, .project4, .project5{
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
@@ -85,3 +84,9 @@ nav ul li{
 	justify-content: space-around;
 }
 
+
+.right__sidebar{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
