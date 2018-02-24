@@ -10,7 +10,8 @@
 
 .container{
 	display:grid;
-	grid-template-columns: 2fr 2fr 2fr;
+	/*height: 100vh;*/
+	grid-template-columns: 2fr 6fr 2fr;
 	grid-template-rows: 75px auto 75px;
 	grid-gap: var(--gap);
 	margin: var(--gap);
@@ -84,9 +85,8 @@ nav ul li{
 	justify-content: space-around;
 }
 
-
 .right__sidebar{
 	display: flex;
-	justify-content: flex-start;
 	flex-direction: column;
+	justify-content: flex-start;
 }
