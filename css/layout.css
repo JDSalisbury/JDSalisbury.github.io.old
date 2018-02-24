@@ -47,9 +47,9 @@
 
 nav ul{
 	display:flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	background-color: gray;
-	background: linear-gradient(to right, gray, white);
+	background: linear-gradient(to left, gray, white);
 }
 nav ul li{
 	margin: 5px;
