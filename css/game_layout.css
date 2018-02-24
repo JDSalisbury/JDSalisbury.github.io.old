@@ -4,10 +4,9 @@
 	padding: 0;
 }
 
-:root{
-	--gap: 20px;
+body{
+    background-image: url('../images/space.jpg');
 }
-
 footer,
 header,
 main {
@@ -18,6 +17,7 @@ footer {
 }
 header {
     grid-column: 1 / -1;
+    background: linear-gradient(to top left, rgba(0,0,0,0), burlywood);
     
 }
 
@@ -34,7 +34,7 @@ header {
 .container {
     display: grid;
     grid-template-columns: 3fr;
-    grid-template-rows: 75px auto 120px;
+    grid-template-rows: 75px auto 100px;
     min-height: 100vh;
 }
 
@@ -54,4 +54,6 @@ header{
     flex-grow: 1;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
+

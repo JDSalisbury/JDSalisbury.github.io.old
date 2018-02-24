@@ -4,24 +4,17 @@
     font: 400 15px 'Roboto';
 }
 
-footer {
-    border-top: 1px solid black;
-}
-
 h1 {
     font-size: 3rem;
 }
 
-header {
-    border-bottom: 1px solid black;
-}
-
 small {
     font-size: .8rem;
+    background-color: white;
 }
 
 .card {
-    background-color: burlywood;
+    background: linear-gradient(to top, rgba(0,0,0,0), burlywood);
     border-radius: 10px;
     border: 1px solid black;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -29,14 +22,13 @@ small {
 .card a {
     font-weight: 700;
 }
-.card h2,
-.card h3 {
-    font-size: 1.25rem;
+.card h2{
+    font-size: 2rem;
 }
 
 .card__pic{
     width: 75%;
     height: 75%;
     border-radius: 2rem;
-    border: 5px solid burlywood;
+    border: 5px solid linear-gradient(to top, rgba(0,0,0,0), burlywood);
 }
