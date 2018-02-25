@@ -31,4 +31,12 @@ small {
     height: 75%;
     border-radius: 2rem;
     border: 5px solid linear-gradient(to top, rgba(0,0,0,0), burlywood);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.intro{
+    font-size: 2rem;
+    background: linear-gradient(to top left, rgba(0,0,0,0), burlywood);
+    border-radius: 1rem;
+    border: 5px solid linear-gradient(to top, rgba(0,0,0,0), burlywood);
 }
