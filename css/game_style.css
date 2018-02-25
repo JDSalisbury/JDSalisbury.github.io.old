@@ -38,5 +38,5 @@ small {
     font-size: 2rem;
     background: linear-gradient(to top left, rgba(0,0,0,0), burlywood);
     border-radius: 1rem;
-    border: 5px solid linear-gradient(to top, rgba(0,0,0,0), burlywood);
+    border: 5px solid linear-gradient(to top left, rgba(0,0,0,0), burlywood);
 }
