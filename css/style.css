@@ -47,7 +47,7 @@ body{
 #pic{
 	width: 400px;
 	height: 500px;
-	border-radius: 50%;
+	border-radius: 1rem;
 }
 
 #project__area__1{
