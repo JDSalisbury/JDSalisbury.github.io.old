@@ -31,7 +31,7 @@ body{
 	border: 1px solid navy;
     color: black;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    
+
 }
 .right__note1 {
     border-top: 2px solid navy;
@@ -47,7 +47,7 @@ body{
 #pic{
 	width: 400px;
 	height: 500px;
-	border-radius: 1rem;
+	border-radius: 50%;
 }
 
 #project__area__1{
@@ -60,7 +60,7 @@ body{
 	width: 50%;
 	height: 50%;
 	border-radius: 1rem;
-	
+
 }
 
 #project__area__3{
