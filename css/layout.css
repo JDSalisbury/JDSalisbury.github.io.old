@@ -10,7 +10,6 @@
 
 .container{
 	display:grid;
-	/*height: 100vh;*/
 	grid-template-columns: 2fr 6fr 2fr;
 	grid-template-rows: 75px auto 75px;
 	grid-gap: var(--gap);
@@ -43,13 +42,13 @@
 #pic{
 	display:flex;
 	justify-content: flex-start;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 nav ul{
 	display:flex;
 	justify-content: flex-start;
-	background-color: gray;
-	background: linear-gradient(to left, gray, white);
+	
 }
 nav ul li{
 	margin: 5px;
@@ -64,9 +63,12 @@ nav ul li{
 }
 
 .project1, .project2, .project3, .project4, .project5{
+
 	display:flex;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	
 }
 
 .footer{
@@ -89,4 +91,10 @@ nav ul li{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	align-items: center;
+}
+
+.left__sidebar__title{
+	display: flex;
+	justify-content: center;
 }

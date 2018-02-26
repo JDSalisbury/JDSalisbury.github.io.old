@@ -5,13 +5,23 @@
 }
 
 
+body{
+	background: radial-gradient(white, lightgray, gray);
+}
+
+.fix{
+	position: fixed;
+}
+
 .footer {
     color: #011;
     border-top: 2px solid navy;
 }
+
 .header {
     border-bottom: 2px solid navy;
 }
+
 .project1,
 .project2,
 .project3,
@@ -21,6 +31,7 @@
 	border: 1px solid navy;
     color: black;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
 }
 .right__note1 {
     border-top: 2px solid navy;
@@ -37,45 +48,40 @@
 	width: 400px;
 	height: 500px;
 	border-radius: 1rem;
-	border: 5px solid white;
 }
 
 #project__area__1{
 	width: 50%;
 	height: 50%;
 	border-radius: 1rem;
-	border: 5px solid white;
 }
 
 #project__area__2{
 	width: 50%;
 	height: 50%;
 	border-radius: 1rem;
-	border: 5px solid white;
+	
 }
 
 #project__area__3{
 	width: 45%;
 	height: 45%;
 	border-radius: 1rem;
-	border: 5px solid white;
 }
 
 #project__area__4{
 	width: 45%;
 	height: 45%;
 	border-radius: 1rem;
-	border: 5px solid white;
 }
 #project__area__5{
 	width: 50%;
 	height: 50%;
 	border-radius: 1rem;
-	border: 5px solid white;
 }
 
 h1{
-	font-size: 24px;
+	font-size: 1.75rem;
 }
 
 a{
@@ -85,10 +91,21 @@ a{
 button{
 	border-radius: 1rem;
 	background-color: lightgray;
-	padding-top:4rem;
-	padding-bottom: 4rem;
+	padding: .2rem 2rem;
 }
 
 button:hover{
 	background-color: gray;
+}
+
+h2{
+	font-size: 1.25rem;
+}
+
+p{
+	margin: 1rem;
+}
+
+.project__title{
+	margin: 1rem;
 }
