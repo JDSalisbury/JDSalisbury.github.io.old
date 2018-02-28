@@ -24,7 +24,7 @@ footer {
 header {
     grid-column: 1 / -1;
     background: linear-gradient(to top left, rgba(0,0,0,0), burlywood);
-    
+
 }
 
 .card {
@@ -58,8 +58,8 @@ header{
     display:flex;
     flex-basis: 0;
     flex-grow: 1;
+		margin: 2rem;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
-
