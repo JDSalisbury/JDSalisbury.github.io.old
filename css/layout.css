@@ -18,7 +18,7 @@
 
 .header, .footer{
 	grid-column:1/-1;
-} 
+}
 
 .project__content{
 	display:grid;
@@ -39,16 +39,50 @@
 	grid-gap:var(--gap);
 }
 
-#pic{
-	display:flex;
-	justify-content: flex-start;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+#pic {
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translateX(100vw);
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+	animation-timing-function: linear;
+	animation-play-state: running;
+	animation-iteration-count: 1;
+  transform-origin: center center;
+}
+
+/*
+	SORT
+	transform: scale
+	transform: opacity
+	transform: rotate
+	transform: translate
+*/
+
+@keyframes spin {
+  0% {
+    opacity: 0;
+    transform: translateX(100vw) rotate(0deg);
+  }
+  50% {}
+  90% {
+    opacity: 1;
+    transform: translateX(0) rotate(360deg);
+  }
+  95% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 nav ul{
 	display:flex;
 	justify-content: flex-start;
-	
+
 }
 nav ul li{
 	margin: 5px;
@@ -68,7 +102,7 @@ nav ul li{
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	
+
 }
 
 .footer{
