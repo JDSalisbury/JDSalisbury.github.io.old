@@ -1,114 +1,161 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-
 * {
-    font: 700 16px 'Open Sans', sans-serif;
+  font: 700 16px 'Open Sans', sans-serif;
 }
 
-
-
-
-.fix{
-	position: fixed;
+.fix {
+  position: fixed;
 }
 
 .footer {
-    color: #011;
-    border-top: 2px solid navy;
+  color: #011;
+  border-top: 2px solid navy;
 }
 
 .header {
-    border-bottom: 2px solid navy;
+  border-bottom: 2px solid navy;
 }
 
-.project1,
-.project2,
-.project3,
-.project4,
-.project5 {
-	border-radius: 1rem;
-	border: 1px solid navy;
-    color: black;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
+.project1, .project2, .project3, .project4, .project5 {
+  border-radius: 1rem;
+  border: 1px solid navy;
+  color: black;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .right__note1 {
-    border-top: 2px solid navy;
-}
-.left__note1,
-.left__note2,
-.left__note3,
-.left__note4 {
-    border-bottom: 2px solid navy;
+  border-top: 2px solid navy;
 }
 
+.left__note1, .left__note2, .left__note3, .left__note4 {
+  border-bottom: 2px solid navy;
+}
 
-#pic{
+#pic {
   width: 400px;
   height: 500px;
-	border-radius: 1rem;
+  border-radius: 1rem;
 }
 
-#project__area__1{
-	width: 50%;
-	height: 50%;
-	border-radius: 1rem;
+#project__area__1 {
+  width: 50%;
+  height: 50%;
+  border-radius: 1rem;
 }
 
-#project__area__2{
-	width: 50%;
-	height: 50%;
-	border-radius: 1rem;
-
+#project__area__2 {
+  width: 50%;
+  height: 50%;
+  border-radius: 1rem;
 }
 
-#project__area__3{
-	width: 45%;
-	height: 45%;
-	border-radius: 1rem;
+#project__area__3 {
+  width: 45%;
+  height: 45%;
+  border-radius: 1rem;
 }
 
-#project__area__4{
-	width: 45%;
-	height: 45%;
-	border-radius: 1rem;
-}
-#project__area__5{
-	width: 50%;
-	height: 50%;
-	border-radius: 1rem;
+#project__area__4 {
+  width: 45%;
+  height: 45%;
+  border-radius: 1rem;
 }
 
-h1{
-	font-size: 1.75rem;
+#project__area__5 {
+  width: 50%;
+  height: 50%;
+  border-radius: 1rem;
 }
 
-a{
-	text-decoration: none;
+h1 {
+  font-size: 1.75rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 button {
   background-color: lightgray;
   padding: .2rem 2rem;
-
   border-radius: 3px;
   border: 0;
   margin: 4px;
-  box-shadow: 1px 2px 1px rgba(0,0,0,0.5);
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
-button:hover{
-	background-color: gray;
+button:hover {
+  background-color: gray;
 }
 
-h2{
-	font-size: 1.25rem;
+h2 {
+  font-size: 1.25rem;
   margin: 1rem;
 }
 
-p{
-	margin: 1rem;
+p {
+  margin: 1rem;
 }
 
-.project__title{
-	margin: 1rem;
+.project__title {
+  margin: 1rem;
 }
+
+#married{
+  width: 50%;
+  height: 50%;
+  border-radius: 1rem;
+}
+
+
+#drop__menu{
+  background-color: rgba(255,255,255, 0.87);
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding: 2px;
+  border-radius: 1rem;
+  border: 1px solid navy;
+}
+
+
+.modal {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      visibility: hidden;
+      transform: scale(1.1);
+      transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+  }
+  .modal-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 1rem 1.5rem;
+      width: 24rem;
+      border-radius: 0.5rem;
+  }
+  .close-button {
+      float: right;
+      width: 1.5rem;
+      line-height: 1.5rem;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 0.25rem;
+      background-color: lightgray;
+  }
+  .close-button:hover {
+      background-color: darkgray;
+  }
+  .show-modal {
+      opacity: 1;
+      visibility: visible;
+      transform: scale(1.0);
+      transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+  }
