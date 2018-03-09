@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* outline: 1px solid red; */
 }
 
 :root {
@@ -10,7 +11,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: 2fr 6fr 2fr;
+  grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: 75px auto 75px;
   grid-gap: var(--gap);
   margin: var(--gap);
@@ -129,8 +130,19 @@ nav ul li {
   justify-content: center;
 }
 
-
-.trigger{
+.placement {
   display: flex;
+  justify-content: center;
+}
+
+.modal__content {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+}
+
+.close__button {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
 }

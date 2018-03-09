@@ -3,9 +3,9 @@
 
 const clickMenu = document.querySelector('.drop__button');
 
-clickMenu.addEventListener('click', function(){
+clickMenu.addEventListener('click', function() {
   const menu = document.querySelector('nav ul');
-  if(menu.style.display === "block"){
+  if (menu.style.display === "block") {
     menu.style.display = 'none';
   } else {
     menu.style.display = 'block';
@@ -15,20 +15,20 @@ clickMenu.addEventListener('click', function(){
 // Create a modal box that pops up with your bio
 // information whenever a button or link is pressed
 
-var modal = document.querySelector(".modal");
-  var trigger = document.querySelector(".trigger");
-  var closeButton = document.querySelector(".close-button");
+const modal = document.querySelector(".modal");
+const aboutMe = document.querySelector(".aboutMe");
+const closeButton = document.querySelector(".close__button");
 
-  function toggleModal() {
-      modal.classList.toggle("show-modal");
+function toggleModal() {
+  modal.classList.toggle("show-modal");
+}
+
+function windowOnClick(event) {
+  if (event.target === modal) {
+    toggleModal();
   }
+}
 
-  function windowOnClick(event) {
-      if (event.target === modal) {
-          toggleModal();
-      }
-  }
-
-  trigger.addEventListener("click", toggleModal);
-  closeButton.addEventListener("click", toggleModal);
-  window.addEventListener("click", windowOnClick);
+aboutMe.addEventListener("click", toggleModal);
+closeButton.addEventListener("click", toggleModal);
+window.addEventListener("click", windowOnClick);
