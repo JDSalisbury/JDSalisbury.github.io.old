@@ -65,9 +65,6 @@ header{
 
 
 .carousel{
-	/* display: grid;
-	display: flex;
-	justify-content: center; */
 	position: relative;
 	width: 300px;
 	height: 450px;
