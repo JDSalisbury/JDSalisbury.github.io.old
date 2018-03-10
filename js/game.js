@@ -1,34 +1,19 @@
-function functionNameThing() {
-  const xarray = {};
+// Add a button and collapsable description
+// to your portfolio projects so when the user
+// clicks the button the descriptions expand and collapse
 
 
-  x = 3; // wont work
-  x = 'asdsa' // bad
+function expandButton(event) {
+  if (event.target && event.target.className == "info__click") {
 
-  x.z = 5; // legal!   // Java myMap.set('x', 5)
-  x = {}; // NO
+    const element = event.target.nextElementSibling;
 
-
-  console.log(JSON.stringify(x)) //  { z: 5 }
+    if (element.style.display === "block") {
+      element.style.display = "none";
+    } else {
+      element.style.display = "block";
+    };
+  };
 }
 
-const myVar = 'keyname'
-
-const myBagOfGarbage = {
-  [myVar]: 42,
-  'anyword': 4,
-  'efewgg': 'hello'
-  foo: [1,2,4,5, function() { console.log('hey der') }]
-  bar: function() { console.log('hey der') }
-}
-
-myBagOfGarbage['keyname'] // 42
-
-
-
-
-
-$('#elementId').attr('data-key', myKey) ==
-
-// vanilla js
-document.querySelector('#elementId').setAttribute('data-key', myKey)
+document.addEventListener('click', expandButton, true);
