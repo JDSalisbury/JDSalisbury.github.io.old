@@ -24,40 +24,40 @@ document.addEventListener('click', expandButton, true);
 
 const carousels = document.getElementsByClassName('carousel');
 
-[].forEach.call(carousels, function (items){
-    const next = items.getElementsByClassName('next')[0];
-    const prev = items.getElementsByClassName('prev')[0];
-    const inner = items.getElementsByClassName('inner')[0];
-    const imgs = inner.getElementsByTagName('img');
+[].forEach.call(carousels, function(items) {
+  const next = items.getElementsByClassName('next')[0];
+  const prev = items.getElementsByClassName('prev')[0];
+  const inner = items.getElementsByClassName('inner')[0];
+  const imgs = inner.getElementsByTagName('img');
 
-    currentImageIndex = 0;
-    width = 300;
+  currentImageIndex = 0;
+  width = 300;
 
-    function switchImg () {
-      inner.style.left = -width * currentImageIndex + 'px';
+  function switchImg() {
+    inner.style.left = -width * currentImageIndex + 'px';
+  };
+
+  next.addEventListener('click', function() {
+    currentImageIndex++;
+
+    if (currentImageIndex >= imgs.length) {
+      currentImageIndex = 0;
     };
 
-    next.addEventListener('click', function () {
-      currentImageIndex++;
+    switchImg();
 
-      if( currentImageIndex >= imgs.length){
-        currentImageIndex = 0;
-      };
+  });
 
-      switchImg();
+  prev.addEventListener('click', function() {
+    currentImageIndex--;
 
-    });
+    if (currentImageIndex < 0) {
+      currentImageIndex = imgs.length - 1;
+    };
 
-    prev.addEventListener('click', function () {
-      currentImageIndex--;
+    switchImg();
 
-      if( currentImageIndex < 0){
-        currentImageIndex = imgs.length - 1;
-      };
-
-      switchImg();
-
-    });
+  });
 
 });
 

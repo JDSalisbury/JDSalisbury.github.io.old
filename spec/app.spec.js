@@ -1,4 +1,3 @@
-
 describe('my portfolio', () => {
 
   describe('button expands', () => {
@@ -9,19 +8,34 @@ describe('my portfolio', () => {
     });
   });
 
-  describe('Toggle modal', function () {
+  describe('Toggle modal', function() {
 
-    it('Shows modal', function () {
+    it('Shows modal', function() {
 
       expect(toggleModal()).toEqual(modal.classList.toggle("show-modal"));
     });
   });
 
+
+
+
 });
 
 
-describe('Hello world', function () {
-  it('says hello', function () {
+describe('Hello world', function() {
+  it('says hello', function() {
     expect(helloWorld()).toEqual('Hello world!');
   });
 });
+
+// test these functions
+//
+// function switchImg() {
+//   inner.style.left = -width * currentImageIndex + 'px';
+// };
+//
+// function windowOnClick(event) {
+//   if (event.target === modal) {
+//     toggleModal();
+//   }
+// }
