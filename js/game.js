@@ -60,3 +60,10 @@ const carousels = document.getElementsByClassName('carousel');
     });
 
 });
+
+
+// Test
+
+function helloWorld() {
+  return 'Hello world!';
+}
