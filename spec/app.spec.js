@@ -8,7 +8,7 @@ describe('my portfolio', () => {
     });
   });
 
-  describe('Toggle modal', function() {
+  describe('Toggle modal', () => {
 
     it('Shows modal', function() {
 
@@ -16,6 +16,17 @@ describe('my portfolio', () => {
     });
   });
 
+  describe('imageSwitcher', () => {
+    it('moves image 300px to the left or right', () => {
+      expect(switchImg(), )
+    });
+  });
+
+  describe('popOutModal', () => {
+    it('background becomes dark and Modal opens', () => {
+      expect(windowOnClick(), )
+    })
+  })
 
 
 
