@@ -29,6 +29,7 @@
 
 .left__note1, .left__note2, .left__note3, .left__note4 {
   border-bottom: 2px solid navy;
+  padding-bottom: 10px;
 }
 
 #pic {
