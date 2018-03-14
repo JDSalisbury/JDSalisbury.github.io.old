@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Portfolio</title>
-
+	<link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="images\favicon.ico" type="image/x-icon">
 	<link rel="icon" href="images\favicon.ico" type="image/x-icon">
@@ -42,10 +42,11 @@
 				<span class="placement"><button class="aboutMe">More about me</button></span>
 				<div class="modal">
 					<div class="modal__content">
+
 						<span class="close__button">&times;</span>
 						<img id="married" src="images\married.jpg"></img>
 						<h1>A bit about my life</h1>
-						<p> I have been happily married since December of 2016. We have a cat together and live in the Columbus area.</p>
+						<p> I have been happily married since December of 2016. We have a cat together and we live in the Columbus area.</p>
 
 					</div>
 				</div>
@@ -70,7 +71,7 @@
 			</section>
 		</div>
 		<div id="project" class="project__content">
-			<article class="project1">
+			<article class="project">
 				<h2 class="project__title">Virtual Pet</h2>
 				<img id="project__area__1" src="images\VirtualPets.jpg">
 				<p>Mastering the Art of Object oriented programing, with the help of Tamagotchi-like Virtual Pets. Explore all the charm of the lovable 90s toy with fun new custom pets. Use your own names to add a personal touch to your lovable pets so they are more
@@ -78,7 +79,7 @@
 				</p>
 				<a href="https://github.com/JDSalisbury/virtual-pet-amok" target="_blank"><button>Info</button></a>
 			</article>
-			<article class="project2">
+			<article class="project">
 				<h2 class="project__title">Review Site</h2>
 				<img id="project__area__2" src="images\Reviews.jpg">
 				<p>Solid reviews page of important matters. If you're ever looking for someone else's brief opinon on four very specific topics this is the site to visit. When it is up. On my computer. So look somewhere else. It's for the best, you're not missing much.
@@ -86,14 +87,14 @@
 				</p>
 				<a href="https://github.com/JDSalisbury/review-site" target="_blank"><button>Info</button></a>
 			</article>
-			<article class="project3">
+			<article class="project">
 				<h2 class="project__title">Temp Conversion</h2>
 				<img id="project__area__3" src="images\temp.png">
 				<p>Simple Temp conversion form Celsius to Fahrenheit, or Fahrenheit to Celsius. Java
 				</p>
 				<a href="https://github.com/JDSalisbury/temp" target="_blank"><button>Info</button></a>
 			</article>
-			<article id="game" class="project4">
+			<article id="game" class="project">
 				<h2 class="project__title">TacticAS</h2>
 				<img id="project__area__4" src="images\TacticAS.jpg">
 				<p> TacticAS, a board game for Champions. Command a team of Units. Equip them as you see fit, and do battle against your friends. 2-4 players. This game is similar to HeroClix or MageKnight. It is a minitures game all in one box with one affordable price
@@ -101,7 +102,7 @@
 				</p>
 				<a href="game.html" target="_blank"><button>Info</button></a>
 			</article>
-			<article id="cat" class="project5">
+			<article id="cat" class="project">
 				<h2 class="project__title">Sage</h2>
 				<img id="project__area__5" src="images\Sage.jpeg">
 				<p>Professional cat owner. It takes a lot to own one of these creatures. I've successfully kept this small beast alive for about a year now. The struggle is real. She barely cares about me. One time this deviant ruined a rug within 24hrs of buying it
@@ -109,7 +110,10 @@
 				</p>
 				<a href="https://www.instagram.com/sage_meows/?hl=en" target="_blank"><button>Info</button></a>
 			</article>
-
+			<div class="calendar">
+				<!-- Loading stuff -->
+				Loading the data just for you.
+			</div>
 		</div>
 		<div class="right__sidebar">
 			<a href="https://wecancodeit.org/"><img class="logo" src="images\WCCIT.png"></a>
@@ -122,6 +126,8 @@
 
 	</div>
 	<script src="./js/index.js"></script>
+	<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+	<script>GitHubCalendar(".calendar", "JDSalisbury");</script>
 </body>
 
 </html>

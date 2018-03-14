@@ -95,7 +95,7 @@ nav ul li {
   justify-content: space-around;
 }
 
-.project1, .project2, .project3, .project4, .project5 {
+.project {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -145,4 +145,9 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-self: flex-end;
+}
+
+
+.calendar{
+
 }

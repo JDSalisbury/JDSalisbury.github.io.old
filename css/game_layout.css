@@ -62,7 +62,6 @@ header {
 }
 
 .carousel {
-  /* Please help, i could not figure out how to move this into the middle. */
   left: 50%;
   transform: translateX(-50%);
   position: relative;
