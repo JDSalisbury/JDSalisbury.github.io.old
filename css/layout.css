@@ -79,11 +79,6 @@
   }
 }
 
-nav ul {
-  display: flex;
-  justify-content: flex-start;
-}
-
 nav ul li {
   margin: 5px;
   list-style-type: none;
