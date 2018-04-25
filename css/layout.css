@@ -11,7 +11,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1.3fr 3fr 1fr;
   grid-template-rows: 75px auto 75px;
   grid-gap: var(--gap);
   margin: var(--gap);
