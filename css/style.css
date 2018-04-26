@@ -9,11 +9,6 @@
 
 .footer {
   color: #011;
-  border-top: 2px solid navy;
-}
-
-.header {
-  border-bottom: 2px solid navy;
 }
 
 .project {
@@ -25,11 +20,11 @@
 
 
 .right__note1 {
-  border-top: 2px solid navy;
+  /* border-top: 2px solid black; */
 }
 
 .left__note1, .left__note2, .left__note3, .left__note4 {
-  border-bottom: 2px solid navy;
+  border-bottom: 2px solid black;
   padding-bottom: 10px;
 }
 
