@@ -37,10 +37,13 @@
   border-radius: 1rem;
 }
 
-#project__area__1 {
+#project__area__1, #project__area__2, #project__area__5,
+ #project__area__6, #project__area__7, #project__area__8, 
+ #project__area__9{
   width: 50%;
   height: 50%;
   border-radius: 1rem;
+  z-index: -1;
 }
 
 #project__area__2 {
@@ -61,35 +64,7 @@
   border-radius: 1rem;
 }
 
-#project__area__5 {
-  width: 50%;
-  height: 50%;
-  border-radius: 1rem;
-}
 
-#project__area__6 {
-  width: 50%;
-  height: 50%;
-  border-radius: 1rem;
-}
-
-#project__area__7 {
-  width: 50%;
-  height: 50%;
-  border-radius: 1rem;
-}
-
-#project__area__8 {
-  width: 50%;
-  height: 50%;
-  border-radius: 1rem;
-}
-
-#project__area__9 {
-  width: 50%;
-  height: 50%;
-  border-radius: 1rem;
-}
 
 h1 {
   font-size: 1.75rem;
