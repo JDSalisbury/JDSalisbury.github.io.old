@@ -29,11 +29,6 @@
   align-self: center;
 }
 
-.project__content {
-  display: grid;
-  grid-template-rows: 1/4;
-  grid-gap: var(--gap);
-}
 
 .right__sidebar {
   display: grid;
@@ -100,8 +95,9 @@ nav ul li {
 
 .project {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
 }
 
@@ -144,4 +140,200 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-self: flex-end;
+}
+
+.project__content{
+  display: grid;
+  grid-gap: var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
+  grid-auto-flow: dense;
+
+}
+
+#pantry{
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+#cat{
+  grid-row: span 2;
+}
+
+#temp{
+  grid-column: span 2;
+}
+
+#vpet{
+  grid-column: span 2;
+}
+
+#display{
+  grid-row: span 2;
+  grid-column: span 3;
+}
+
+
+
+#checkboxPantry:checked + .project {
+  grid-row: span 4;
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+}
+
+#checkboxPantry:checked + .project  p{
+  display: block;
+}
+
+#checkboxPantry:checked + .project  h2{
+  position: relative;
+  align-self: center;
+}
+
+#checkboxPantry:checked + .project  img{
+  height: 92%;
+}
+
+
+
+#checkboxResume:checked + .project {
+  grid-row: span 5;
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+}
+
+#checkboxResume:checked + .project  p{
+  display: block;
+}
+
+#checkboxResume:checked + .project  h2{
+  position: relative;
+  align-self: center;
+}
+
+#checkboxResume:checked + .project  img{
+  height: 92%;
+}
+
+
+
+#checkboxIMS:checked + .project {
+  grid-row: span 3;
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+}
+
+#checkboxIMS:checked + .project  p{
+  display: block;
+}
+
+#checkboxIMS:checked + .project  h2{
+  position: relative;
+  align-self: center;
+}
+
+#checkboxIMS:checked + .project  img{
+  height: 69%;
+}
+
+
+
+
+
+
+#checkboxCalc:checked + .project {
+  grid-row: span 3;
+  grid-column: span 3;
+}
+
+#checkboxCalc:checked + .project  p{
+  display: block;
+}
+
+#checkboxCalc:checked + .project  img{
+  height: 70%;
+}
+
+
+
+
+#checkboxReview:checked + .project {
+  grid-row: span 3;
+  grid-column: span 3;
+}
+
+#checkboxReview:checked + .project  p{
+  display: block;
+}
+
+#checkboxReview:checked + .project  img{
+  height: 70%;
+}
+
+
+
+
+#checkboxVpet:checked + .project {
+  grid-column: span 3;
+}
+
+#checkboxVpet:checked + .project  p{
+  display: block;
+}
+
+#checkboxVpet:checked + .project  img{
+  height: 105%;
+}
+
+
+
+
+#checkboxTemp:checked + .project {
+  grid-column: span 3;
+}
+
+#checkboxTemp:checked + .project  p{
+  display: block;
+}
+
+#checkboxTemp:checked + .project  img{
+  height: 55%;
+}
+
+
+
+
+
+#checkboxGame:checked + .project {
+  grid-row: span 3;
+  grid-column: span 3;
+}
+
+#checkboxGame:checked + .project  p{
+  display: block;
+}
+
+#checkboxGame:checked + .project  img{
+  height: 80%;
+}
+
+
+
+
+
+
+#checkboxCat:checked + .project {
+  grid-row: span 3;
+  grid-column: span 3;
+}
+
+#checkboxCat:checked + .project  p{
+  display: block;
+}
+
+#checkboxCat:checked + .project  img{
+  height: 80%;
 }

@@ -29,6 +29,7 @@
 				</ul>
 			</nav>
 		</header>
+
 		<div class="left__sidebar">
 			<section class="left__note1"><img id="pic" src="images\jeff-final.jpg">
 			</section>
@@ -65,85 +66,142 @@
 				</div>
 			</section>
 		</div>
+
 		<div id="project" class="project__content">
-				<article id="pantry" class="project">
+
+			<input type="checkbox" id="checkboxPantry">
+			<label for="checkboxPantry" id="pantry" class="project">
 						<h2 class="project__title">Pantry+</h2>
 						<div class="carousel">
 								<input id="image1" type="radio" name="image-selector" checked="checked" />
 								<label for="image4">View image 4</label>
-								<img id="project__area__6" src="images\pp1.png">
+								<img class="project__image" src="images\pp1.png">
 							  
 								<input id="image2" type="radio" name="image-selector" />
 								<label for="image1">View image 1</label>
-								<img id="project__area__7" src="images\pp2.png">
+								<img class="project__image" src="images\pp2.png">
 
 								<input id="image3" type="radio" name="image-selector" />
 								<label for="image2">View image 2</label>
-							  	<img id="project__area__8" src="images\pp3.png">
+							  	<img class="project__image" src="images\pp3.png">
 
 								<input id="image4" type="radio" name="image-selector" />
 								<label for="image3">View image 3</label>
-								<img id="project__area__9" src="images\pp4.png">
+								<img class="project__image" src="images\pp4.png">
 
 								<label for="image4">View image 4</label>
 								<label for="image1">View image 1</label>
-							  </div>
+						</div>
 						<p> Constructed a curb-side pick up application for a real world client, The Broad St. Food Pantry. The Broad St. Food Pantry was unable to service some of there clients due to the hour long wait time. Our goal was to reduce the wait time to ten minutes so that people with children or people who dont have a secure form of transportion can quickly come in and get their food. Through TDD and Pair programing my team of six was able to get the wait time down to seven minutes.
 							<br>
 							<span class="skills__used">Java | Thymeleaf | Spring | JavaScript | HTML/CSS | JPA | AJAX | Agile | Heroku | Travis CI | Coveralls | TDD</span>
+							<br>
+							<a href="https://github.com/NAPOSCA/pantryplus" target="_blank"><button>Info</button></a>
+							<a href="http://pantryplus.herokuapp.com/" target="_blank"><button>Live Site</button></a>
 						</p>
-						<a href="https://github.com/NAPOSCA/pantryplus" target="_blank"><button>Info</button></a>
-						<a href="http://pantryplus.herokuapp.com/" target="_blank"><button>Live Site</button></a>
-					</article>
-			<article class="project">
+			</label>
+
+			<input type="checkbox" id="checkboxResume">
+			<label for="checkboxResume" id="resume" class="project">
+				<h2 class="project__title">Resume</h2>
+				<img class="project__image" src="images\resume.png">
+				<p>Currently Funemployed!
+				<br>
+				<a href="https://docs.google.com/document/d/13gbH7pgXfKiEhItFL1B-36xGxjQZut0zFdMvNDmIIBo/edit?usp=sharing" target="_blank"><button>DOWNLOAD PDF!</button></a>
+				</p>
+			</label>
+			
+			<input type="checkbox" id="checkboxIMS">
+			<label for="checkboxIMS" id="ims" class="project">
+				<h2 class="project__title">I.M.S.</h2>
+				<img class="project__image" src="images\IMS.png">
+				<p>Full-Stack Inventory Managment System. Created to help "Fresh Time" Food Market keep track of there produce, and expiration dates. There old system was with pen and paper.
+						<br>
+						<br>
+						<span class="skills__used">Java | JavaScript | Html/CSS | H2 Database | Spring Boot</span>
+						<br>
+						<a href="https://github.com/JDSalisbury/ims" target="_blank"><button>Info</button></a>
+				</p>
+			</label>
+
+			<input type="checkbox" id="checkboxCalc">
+			<label for="checkboxCalc" id="calc" class="project">
+				<h2 class="project__title">Calculator</h2>
+				<img class="project__image" src="images\calc.png">
+				<p>A simple Calculator created with Javascript Framework Vue. 
+						<br>
+						<br>
+						<span class="skills__used">Vue | JavaScript | Html/CSS</span>
+						<br>
+						<a href="https://github.com/JDSalisbury/calculator-App" target="_blank"><button>Info</button></a>
+				</p>
+			</label>
+
+			<input type="checkbox" id="checkboxReview">
+			<label for="checkboxReview" id="review" class="project">
 				<h2 class="project__title">Review Site</h2>
-				<img id="project__area__2" src="images\Reviews.jpg">
+				<img class="project__image" src="images\Reviews.jpg">
 				<p>First Full-Stack Java Web application. A simple Book Review app that alows the user to add tags to describe the books and also leave comments. 
 					<br>
+					<br>
 					<span class="skills__used">Spring | Java | Html | TDD</span>
+					<br>
+					<a href="https://github.com/JDSalisbury/review-site" target="_blank"><button>Info</button></a>
 				</p>
-				<a href="https://github.com/JDSalisbury/review-site" target="_blank"><button>Info</button></a>
-			</article>
-			<article class="project">
+			</label>
+
+			<input type="checkbox" id="checkboxVpet">
+			<label for="checkboxVpet" id="vpet" class="project">
 				<h2 class="project__title">Virtual Pet</h2>
-				<img id="project__area__1" src="images\VirtualPets.jpg">
-				<p>Mastering the Art of Object oriented programing, with the help of Tamagotchi-like Virtual Pets. Explore all the charm of the lovable 90s toy with fun new custom pets. Use your own names to add a personal touch to your lovable pets so they are more
+				<img class="project__image" src="images\VirtualPets.png">
+				<p>Mastering the Art of OOP, with the help of Tamagotchi-like Virtual Pets. Explore all the charm of the lovable 90s toy with fun new custom pets. Use your own names to add a personal touch to your lovable pets so they are more
 					memorable as they die. 
 					<br>
 					<span class="skills__used">OOP | Java | TDD</span>
+					<a href="https://github.com/JDSalisbury/virtual-pet-amok" target="_blank"><button>Info</button></a>
 				</p>
-				<a href="https://github.com/JDSalisbury/virtual-pet-amok" target="_blank"><button>Info</button></a>
-			</article>
-			<article class="project">
+			</label>
+
+			<input type="checkbox" id="checkboxTemp">
+			<label for="checkboxTemp" id="temp" class="project">
 				<h2 class="project__title">Temp Conversion</h2>
-				<img id="project__area__3" src="images\temp.png">
+				<img class="project__image" src="images\temp.png">
 				<p>Simple Temp conversion form Celsius to Fahrenheit, or Fahrenheit to Celsius.
 					<br>
+					<br>
 					<span class="skills__used">Java</span>
+					<br>
+					<a href="https://github.com/JDSalisbury/temp" target="_blank"><button>Info</button></a>
 				</p>
-				<a href="https://github.com/JDSalisbury/temp" target="_blank"><button>Info</button></a>
-			</article>
-			<article id="game" class="project">
+			</label>
+
+			<input type="checkbox" id="checkboxGame">
+			<label for="checkboxGame" id="game" class="project">
 				<h2 class="project__title">TacticAS</h2>
-				<img id="project__area__4" src="images\TacticAS.jpg">
+				<img class="project__image" src="images\TacticAS.jpg">
 				<p> TacticAS, a board game for Champions. Command a team of Units. Equip them as you see fit, and do battle against your friends. 2-4 players. This game is similar to HeroClix or MageKnight. It is a minitures game all in one box with one affordable price
 					and half the hassle. Still some hassle though. 
 					<br>
+					<br>
 					<span class="skills__used">Photoshop/Gimp</span>
+					<a href="game.html" target="_blank"><button>Info</button></a>
 				</p>
-				<a href="game.html" target="_blank"><button>Info</button></a>
-			</article>
-			<article id="cat" class="project">
+			</label>
+
+			<input type="checkbox" id="checkboxCat">
+			<label for="checkboxCat" id="cat" class="project">
 				<h2 class="project__title">Sage</h2>
-				<img id="project__area__5" src="images\Sage.jpeg">
+				<img class="project__image" src="images\Sage.jpeg">
 				<p>Professional cat owner. It takes a lot to own one of these creatures. I've successfully kept this small beast alive for about a year now. The struggle is real. She barely cares about me. One time this deviant ruined a rug within 24hrs of buying it
 					by throwing up on it.
 					<br>
+					<br>
 					<span class="skills__used">Willpower | Diligence | Determination</span>
+					<a href="https://www.instagram.com/sage_meows/?hl=en" target="_blank"><button>Info</button></a>
 				</p>
-				<a href="https://www.instagram.com/sage_meows/?hl=en" target="_blank"><button>Info</button></a>
-			</article>
-			<div id= "display" class="calendar">
+			</label>
+
+			<div id="display" class="calendar">
 			</div>
 		</div>
 		<div class="right__sidebar">
